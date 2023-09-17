@@ -2,7 +2,7 @@
 body {
   animation: 3s passive-annimation;
   overflow: hidden;
-  transform: translateY(-8%);
+  transform: translateY(-10%);
 }
 .vulkan {
   width: 100%;
@@ -18,7 +18,7 @@ body {
     transform: translateY(100%);
   }
   to {
-    transform: translateY(-8%);
+    transform: translateY(-10%);
   }
 }
 
