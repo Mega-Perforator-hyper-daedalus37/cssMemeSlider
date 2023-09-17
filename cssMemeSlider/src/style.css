@@ -1,0 +1,112 @@
+@import url("./raji-img.css");
+body {
+  animation: 3s passive-annimation;
+  overflow: hidden;
+  transform: translateY(-8%);
+}
+.vulkan {
+  width: 100%;
+  height: 110vh;
+  animation: 60s vulkan-anim;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+
+@keyframes passive-annimation {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(-8%);
+  }
+}
+
+@keyframes vulkan-anim {
+  from {
+    transform: translateY(1000%);
+  }
+  to {
+    top: 10;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 10vh;
+  margin: 0 auto;
+}
+.raji-header {
+  align-self: center;
+}
+.slider-container {
+  position: relative;
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+}
+.raji-input {
+  display: none;
+}
+.slide {
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.slider {
+  width: 700%;
+  display: flex;
+  transition: 1s ease-in-out;
+}
+
+.raji-img {
+  width: 80vw;
+  height: 90vh;
+}
+.raji-labels {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 15rem;
+  height: 3rem;
+}
+.raji-labels {
+  display: flex;
+  gap: 1rem;
+}
+.raji-radio {
+  background-color: cadetblue;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.raji-radio:hover {
+  background-color: aqua;
+}
+.raji-img-names {
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex: 1 0 auto;
+  height: 2rem;
+  width: 80vw;
+  overflow: hidden;
+}
+.slide-name {
+  width: 700%;
+  transition: 1s ease-in-out;
+  display: flex;
+}
+.ラジ-画像 {
+  align-self: center;
+  opacity: 0;
+  text-align: center;
+  width: 80vw;
+  transition: 0.3s ease-in-out;
+  margin: 0;
+}

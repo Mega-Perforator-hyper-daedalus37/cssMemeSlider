@@ -1,0 +1,87 @@
+#raji-like:checked ~ .raji-labels .raji-radio:nth-child(1) {
+  background-color: aqua;
+}
+#raji-before:checked ~ .raji-labels .raji-radio:nth-child(2) {
+  background-color: aqua;
+}
+#raji-passport:checked ~ .raji-labels .raji-radio:nth-child(3) {
+  background-color: aqua;
+}
+#raji-2years:checked ~ .raji-labels .raji-radio:nth-child(4) {
+  background-color: aqua;
+}
+#raji-mrbeast:checked ~ .raji-labels .raji-radio:nth-child(5) {
+  background-color: aqua;
+}
+#raji-shiz:checked ~ .raji-labels .raji-radio:nth-child(6) {
+  background-color: aqua;
+}
+#raji-bayan:checked ~ .raji-labels .raji-radio:nth-child(7) {
+  background-color: aqua;
+}
+
+#raji-like:checked ~ .slide .slider {
+  transform: translateX(0);
+}
+#raji-before:checked ~ .slide .slider {
+  transform: translateX(calc(-100% / 7));
+}
+#raji-passport:checked ~ .slide .slider {
+  transform: translate(calc(-100% / 7 * 2));
+}
+#raji-2years:checked ~ .slide .slider {
+  transform: translate(calc(-100% / 7 * 3));
+}
+#raji-mrbeast:checked ~ .slide .slider {
+  transform: translate(calc(-100% / 7 * 4));
+}
+#raji-shiz:checked ~ .slide .slider {
+  transform: translate(calc(-100% / 7 * 5));
+}
+#raji-bayan:checked ~ .slide .slider {
+  transform: translate(calc(-100% / 7 * 6));
+}
+
+#raji-like:checked ~ .raji-img-names .slide-name .ラジ-画像:nth-child(1) {
+  opacity: 1;
+}
+#raji-before:checked ~ .raji-img-names .slide-name .ラジ-画像:nth-child(2) {
+  opacity: 1;
+}
+#raji-passport:checked ~ .raji-img-names .slide-name .ラジ-画像:nth-child(3) {
+  opacity: 1;
+}
+#raji-2years:checked ~ .raji-img-names .slide-name .ラジ-画像:nth-child(4) {
+  opacity: 1;
+}
+#raji-mrbeast:checked ~ .raji-img-names .slide-name .ラジ-画像:nth-child(5) {
+  opacity: 1;
+}
+#raji-shiz:checked ~ .raji-img-names .slide-name .ラジ-画像:nth-child(6) {
+  opacity: 1;
+}
+#raji-bayan:checked ~ .raji-img-names .slide-name .ラジ-画像:nth-child(7) {
+  opacity: 1;
+}
+
+#raji-like:checked ~ .raji-img-names .slide-name {
+  transform: translateX(0);
+}
+#raji-before:checked ~ .raji-img-names .slide-name {
+  transform: translateX(calc(-100% / 7));
+}
+#raji-passport:checked ~ .raji-img-names .slide-name {
+  transform: translate(calc(-100% / 7 * 2));
+}
+#raji-2years:checked ~ .raji-img-names .slide-name {
+  transform: translate(calc(-100% / 7 * 3));
+}
+#raji-mrbeast:checked ~ .raji-img-names .slide-name {
+  transform: translate(calc(-100% / 7 * 4));
+}
+#raji-shiz:checked ~ .raji-img-names .slide-name {
+  transform: translate(calc(-100% / 7 * 5));
+}
+#raji-bayan:checked ~ .raji-img-names .slide-name {
+  transform: translate(calc(-100% / 7 * 6));
+}
